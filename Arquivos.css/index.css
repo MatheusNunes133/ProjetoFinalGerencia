@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    width: 100%;
+}
+
+nav#menu ul{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    text-align: center;
+    min-width: 225px;
+}
+nav#menu ul li{
+    display: inline-block;
+    margin: 15px;
+    color: red;
+    width: auto;
+    text-align: center;
+}
+nav#menu ul li a{
+    text-decoration: none;
+    padding: 6px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17pt;
+    transition: 0.3s;
+}
+nav#menu ul li a:hover{
+    color:red;
+    border-bottom: 2px solid red;
+}
+
+nav#menu ul li a span{
+    padding: 6px;
+    border-bottom: 2px solid white;
+}
+nav#menu ul li a span:hover{
+    color:red;
+    border-bottom: 2px solid red;
+}
+
+
+
