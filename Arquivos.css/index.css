@@ -6,6 +6,10 @@
 html,body{
     width: 100%;
 }
+body{
+background:url("../Imagens/Fundo.jpg") no-repeat center center fixed;
+background-size: cover;
+}
  body,ul,li{
      margin: 0;
      padding: 0;
@@ -60,7 +64,7 @@ html,body{
     margin-left: 4vw;
     margin-right: 4vw;
     padding-bottom: 2vh;
-    opacity: 80%;
+    opacity: 90%;
  }
 .descricao h1{
     color: white;
