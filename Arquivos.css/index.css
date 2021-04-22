@@ -6,42 +6,73 @@
 html,body{
     width: 100%;
 }
+ body,ul,li{
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 16pt;
+ }
+ a{
+     text-decoration: none;
+     color: white;
+ }
+ .header{
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     padding: 20px;
+     color:white;
+     background-color: black;
+     align-items: center;
+     height: auto;
+ }
 
-nav#menu ul{
-    width: 100%;
-    height: auto;
-    background-color: black;
-    text-align: center;
-    min-width: 225px;
+ .menu{
+    display: flex;
+ }
+ .menu li{
+     margin-left: 10px;
+ }
+ .menu li a{
+     display: block;
+     padding: 10px;
+     transition: 0.3s;
+ }
+
+ .menu li a:hover{
+     border-bottom: 2px solid red;
+     color:red;
+     height: auto;
+ }
+ .menu li a.span{
+     border-bottom: 2px solid white;
+ }
+ .menu li a.span:hover{
+    border-bottom: 2px solid red;
 }
-nav#menu ul li{
-    display: inline-block;
-    margin: 15px;
-    color: red;
-    width: auto;
-    text-align: center;
+.tela{
+    padding: 30px;
 }
-nav#menu ul li a{
-    text-decoration: none;
-    padding: 6px;
+
+.descricao{
+    background-color:black;
+    margin: 2vw 4vw 2vw;
+    opacity: 80%;
+ }
+.descricao h1{
     color: white;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 17pt;
-    transition: 0.3s;
-}
-nav#menu ul li a:hover{
-    color:red;
-    border-bottom: 2px solid red;
-}
-
-nav#menu ul li a span{
-    padding: 6px;
+    text-align: center;
+    font: 20pt times;
     border-bottom: 2px solid white;
+    margin-left: 3vw;
+    margin-right: 3vw;
 }
-nav#menu ul li a span:hover{
-    color:red;
-    border-bottom: 2px solid red;
+.descricao p{
+    font-size: 14pt;
+    text-align: justify;
+    text-indent: 10px;
+    color: white;
+    margin: 3vh 3vw 0.2vh 3vw;
 }
-
-
 
