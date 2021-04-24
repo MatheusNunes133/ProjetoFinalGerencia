@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    width: 100%;
+}
+body{
+background:url("../Imagens/Fundo.jpg") no-repeat center center fixed;
+background-size: cover;
+}
+ body,ul,li{
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 16pt;
+ }
+ a{
+     text-decoration: none;
+     color: white;
+ }
+ .header{
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     padding: 20px;
+     color:white;
+     background-color: black;
+     align-items: center;
+     height: auto;
+ }
+
+ .menu{
+    display: flex;
+ }
+ .menu li{
+     margin-left: 10px;
+ }
+ .menu li a{
+     display: block;
+     padding: 10px;
+     transition: 0.3s;
+ }
+
+ .menu li a:hover{
+     border-bottom: 2px solid red;
+     color:red;
+     height: auto;
+ }
+ .menu li a.span{
+     border-bottom: 2px solid white;
+ }
+ .menu li a.span:hover{
+    border-bottom: 2px solid red;
+}
+.tela{
+    padding-top: 30px;
+}
+
+.descricao{
+    background-color:black;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-bottom: 4vh;
+    padding-bottom: 2vh;
+    opacity: 90%;
+}
+.descricao h1{
+    color: white;
+    text-align: center;
+    font: 20pt times;
+    border-bottom: 2px solid white;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    padding-top: 10px;
+}
+
+.descricao h3{
+    color: white;
+    font: 16pt times;
+    text-align: left;
+    text-decoration: underline;
+    margin-left: 3vw;
+    padding-top: 20px;
+}
+
+.descricao p{
+    font-size: 14pt;
+    text-align: justify;
+    text-indent: 10px;
+    color: white;
+    margin: 3vh 3vw 0.2vh 3vw;
+}
+
+.descricao form#form{
+    margin-top: 5vh;
+    padding: 3%;
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 1px solid white;
+    border-radius: 10%;
+}
+
+.descricao form#form label{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.descricao .item{
+ 
+    margin-bottom: 3vh;
+}
+
+.descricao .item input[type = text]{
+    display: block;
+    border: 1px solid rgb(206, 205, 205);
+    width: 100%;
+    font-size: 12pt;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom:  2vh;
+    outline-color: rgb(95, 17, 17);
+    border-radius: 2px;
+}
+
+
+
+.descricao .item textarea{
+    width: 100%;
+    height: 20vh;
+    font-size: 12pt;
+    font-family: 'Times New Roman', Times, serif;
+}
+.descricao .item select{
+   padding: 4px;
+   font-size: 12pt;
+   font-family: 'Times New Roman', Times, serif;
+   width: 30%;
+}
+.botao{
+    text-align: center;
+}
+
+.botao input[type = submit]{
+    text-align: center;
+    padding: 5px;
+    border-radius: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
+}
