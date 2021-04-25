@@ -1,14 +1,15 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    border: none;
 }
 
 html,body{
     width: 100%;
 }
 body{
-background:url("../Imagens/Fundo.jpg") no-repeat center center fixed;
-background-size: cover;
+background-color: #f9f9f9;
 }
  body,ul,li{
      margin: 0;
@@ -59,93 +60,78 @@ background-size: cover;
     padding-top: 30px;
 }
 
-.descricao{
-    background-color:black;
-    margin-left: 4vw;
-    margin-right: 4vw;
-    margin-bottom: 4vh;
-    padding-bottom: 2vh;
-    opacity: 90%;
-}
-.descricao h1{
-    color: white;
-    text-align: center;
-    font: 20pt times;
-    border-bottom: 2px solid white;
-    margin-left: 3vw;
-    margin-right: 3vw;
-    padding-top: 10px;
+
+
+section.formulario{
+    background-color: #fff;
+    padding: 32px;
+    max-width: 500px;
+    margin: 5% auto 20px;
+    border: 1px solid #efefef;
+    font-size: 13pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 0px 0px 4px 1px;
 }
 
-.descricao h3{
-    color: white;
-    font: 16pt times;
-    text-align: left;
-    text-decoration: underline;
-    margin-left: 3vw;
-    padding-top: 20px;
-}
-
-.descricao p{
+section.formulario h3{
     font-size: 14pt;
-    text-align: justify;
-    text-indent: 10px;
-    color: white;
-    margin: 3vh 3vw 0.2vh 3vw;
-}
-
-.descricao form#form{
-    margin-top: 5vh;
-    padding: 3%;
-    color: white;
-    margin-left: 20%;
-    margin-right: 20%;
-    border: 1px solid white;
-    border-radius: 10%;
-}
-
-.descricao form#form label{
+    color: orange;
+    text-align: center;
+    margin-bottom: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.descricao .item{
- 
-    margin-bottom: 3vh;
+section.formulario form label{
+    color: #777;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12pt;
+}
+section.formulario form .item{
+    margin-bottom: 15px;
 }
 
-.descricao .item input[type = text]{
+section.formulario form input[type = text]{
+    width: 100%;
+    border: 1px solid #c9c0c0;
+    padding: 8px 16px;
+    font-size: 12pt;
+    border-radius: 4px;
+}
+
+section.formulario form input[name = "nome"]{
+    width: 100%;
+    border: 1px solid #c9c0c0;
+}
+
+section.formulario form input[name = "Email"]{
     display: block;
-    border: 1px solid rgb(206, 205, 205);
+    width: 70%;
+}
+section.formulario form select{
+    display: block;
+    border: 1px solid #c9c0c9;
+    border-radius: 4px;
+    width: 40%;
+    padding: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10pt;
+}
+
+section.formulario form textarea{
     width: 100%;
-    font-size: 12pt;
-    font-family: 'Times New Roman', Times, serif;
-    padding-bottom:  2vh;
-    outline-color: rgb(95, 17, 17);
-    border-radius: 2px;
+    min-height: 20vh;
+    border: 1px solid #c9c0c0;
+    border-radius: 4px;
+    padding:4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10pt;
 }
-
-
-
-.descricao .item textarea{
+section.formulario form div.botao input{
+    color: white;
     width: 100%;
-    height: 20vh;
-    font-size: 12pt;
-    font-family: 'Times New Roman', Times, serif;
-}
-.descricao .item select{
-   padding: 4px;
-   font-size: 12pt;
-   font-family: 'Times New Roman', Times, serif;
-   width: 30%;
-}
-.botao{
-    text-align: center;
-}
-
-.botao input[type = submit]{
-    text-align: center;
-    padding: 5px;
-    border-radius: 10%;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 12pt;
+    padding: 9px;
+    background-color: orange;
+    border-radius: 4px;
+    cursor: pointer;
 }
