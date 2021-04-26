@@ -93,3 +93,51 @@ background-size: cover;
     margin: 3vh 3vw 0.2vh 3vw;
 }
 
+
+section footer.rodape{
+    height: auto;
+    background-color: black;
+    color: white;
+    margin-top: 20vh;
+    padding: 30px 0px 10px 20px;
+}
+
+section footer.rodape a.logoRodape{
+    text-align: center;
+    display: block;
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-bottom: 5vh;
+}
+
+section footer.rodape div.descricaoRodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+section footer.rodape div.explicacao{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    text-align: justify;
+}
+
+section footer.rodape div.explicacao p.tituloExplica{
+    text-align: center;
+    margin-bottom: 3vh;
+}
+
+section footer.rodape div.devs{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+section footer.rodape div.devs p.tituloDev{
+    text-align: center;
+    margin-bottom: 3vh;
+}
+
+section footer.rodape div.devs p.nomeDev{
+    margin-bottom: 3vh;
+}
