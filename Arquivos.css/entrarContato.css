@@ -158,20 +158,20 @@ section footer.rodape a.logoRodape{
     padding: 10px;
 }
 
-section footer.rodape div.descricaoRodape p.textExplica{
+section footer.rodape  p.textExplica{
     text-indent: 3vw;
     text-align: justify;
     margin-bottom: 4vh;
 }
 
-section footer.rodape div.descricaoRodape h3{
+section footer.rodape h3{
     text-align: center;
     font-size: 16pt;
     margin-bottom: 4vh;
     margin-top: 4vh;
 }
 
-section footer.rodape div.descricaoRodape p.nomeDev{
+section footer.rodape p.nomeDev{
     font-size: 14pt;
     margin-bottom: 2vh;
     text-indent: 3vw;
