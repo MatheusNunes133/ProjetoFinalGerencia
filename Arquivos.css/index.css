@@ -93,7 +93,6 @@ background-size: cover;
     margin: 3vh 3vw 0.2vh 3vw;
 }
 
-
 section footer.rodape{
     background-color: black;
     color: white;
@@ -107,13 +106,8 @@ section footer.rodape a.logoRodape{
     margin-left: 45%;
     margin-right: 45%;
     margin-bottom: 5vh;
+    padding: 10px;
 }
-
-section footer.rodape div.descricaoRodape{
-    display: flex;
-    flex-direction: column;
-}
-
 section footer.rodape div.descricaoRodape p.textExplica{
     text-indent: 3vw;
     text-align: justify;

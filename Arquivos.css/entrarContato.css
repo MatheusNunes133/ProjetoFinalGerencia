@@ -158,11 +158,6 @@ section footer.rodape a.logoRodape{
     padding: 10px;
 }
 
-section footer.rodape div.descricaoRodape{
-    display: flex;
-    flex-direction: column;
-}
-
 section footer.rodape div.descricaoRodape p.textExplica{
     text-indent: 3vw;
     text-align: justify;
