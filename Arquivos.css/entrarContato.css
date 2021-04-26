@@ -9,8 +9,9 @@ html,body{
     width: 100%;
 }
 body{
-background-color: #f9f9f9;
-}
+    background:url("../Imagens/Fundo.jpg") no-repeat center center fixed;
+    background-size: cover;
+    }
  body,ul,li{
      margin: 0;
      padding: 0;
