@@ -29,5 +29,5 @@ a Genuíno Software seria um programa criado com seu objetivo de guardar informa
 ## Nossa Logo :sunglasses:
 
 <p align="center">
-  <img src="https://github.com/MatheusNunes133/ProjetoFinalGerencia/blob/0317d27f1825be5b79ac5422eb8db9ea705296f7/Imagens/logo.png">
+  <img src="Imagens/logo.png">
 </p>
