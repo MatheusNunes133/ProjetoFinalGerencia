@@ -47,15 +47,15 @@ body{
  }
 
  .menu li a:hover{
-     border-bottom: 2px solid red;
-     color:red;
+     border-bottom: 2px solid orange;
+     color:orange;
      height: auto;
  }
  .menu li a.span{
      border-bottom: 2px solid white;
  }
  .menu li a.span:hover{
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid orange;
 }
 .tela{
     padding-top: 30px;

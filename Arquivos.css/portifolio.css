@@ -45,15 +45,15 @@ background-size: cover;
  }
 
  .menu li a:hover{
-     border-bottom: 2px solid red;
-     color:red;
+     border-bottom: 2px solid orange;
+     color:orange;
      height: auto;
  }
  .menu li a.span{
      border-bottom: 2px solid white;
  }
  .menu li a.span:hover{
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid orange;
 }
 .tela{
     padding-top: 30px;
@@ -65,7 +65,8 @@ background-size: cover;
     margin-right: 4vw;
     padding-bottom: 2vh;
     opacity: 90%;
- }
+    padding-top: 5vh;
+}
 .descricao h1{
     color: white;
     text-align: center;
@@ -76,23 +77,52 @@ background-size: cover;
     padding-top: 10px;
 }
 
-.descricao h3{
+.descDesenvolv{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4vh;
     color: white;
-    font: 16pt times;
-    text-align: left;
-    text-decoration: underline;
     margin-left: 3vw;
-    padding-top: 20px;
-    margin-top: 5vh;
+    margin-right: 3vw;
+}
+.descDesenvolv p{
+    font-size: 30pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.descricao p{
-    font-size: 14pt;
-    text-align: justify;
-    text-indent: 10px;
-    color: white;
-    margin: 3vh 3vw 0.2vh 3vw;
+.descDesenvolv strong{
+    color: orange;
+    font-family: monospace;
 }
+
+.descDesenvolv p.verProdutos{
+    margin-top: 5vh;
+    font-size: 16pt;
+    margin-left: 4vw;
+    margin-bottom: 8vh;
+}
+
+.descDesenvolv div.botoes{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.descDesenvolv div.botoes a{
+    padding: 2vh 3vw;
+    background-color: orange;
+    color: black;
+    border-radius: 20px;
+    border: none;
+    transition: 0.3s;
+    margin-bottom: 5vh;
+}
+
+.descDesenvolv div.botoes a:hover{
+    color:orange;
+    background-color: white;
+    cursor: pointer;
+}
+
 
 section footer.rodape{
     background-color: black;
