@@ -18,9 +18,9 @@
   >
 </h3>
 
->Andamento do projeto: Concluido :heavy_check_mark:
->
 ## Descrição do projeto :memo:
 <p align="justify">
 Desenvolver um site ficticio de uma empresa de software
 </p>
+
+>Andamento do projeto: Concluido :heavy_check_mark:
