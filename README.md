@@ -1,14 +1,5 @@
 ## Desenvolvedores :shipit:
 
-<h3 id="matheus">
-   <a target="blank"
-   href="https://www.instagram.com/matheuss_nunes_/?hl=pt-br"
-   title="Instagram"
-   >
-   Matheus Nunes Miguel</a
-   >
-</h3>
-
 <h3 id="bruno">
   <a 
   href="https://www.instagram.com/bruno.dutrac/" 
@@ -16,6 +7,15 @@
   >
   Bruno Dutra Coelho</a
   >
+</h3>
+
+<h3 id="matheus">
+   <a target="blank"
+   href="https://www.instagram.com/matheuss_nunes_/?hl=pt-br"
+   title="Instagram"
+   >
+   Matheus Nunes Miguel</a
+   >
 </h3>
 
 ## Descrição do projeto :memo:
