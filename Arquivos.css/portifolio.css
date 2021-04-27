@@ -125,6 +125,7 @@ background-size: cover;
     border: none;
     transition: 0.3s;
     margin-bottom: 5vh;
+    text-align: center;
 }
 
 .descDesenvolv div.botoes a:hover{
@@ -179,6 +180,11 @@ section footer.rodape div p.nomeDev{
     }
     .header img{
         margin-bottom: 30px;
+    }
+    .descDesenvolv div.botoes a{
+        display: inline-table;
+        width: 20px;
+        text-align: center;
     }
 }
 
