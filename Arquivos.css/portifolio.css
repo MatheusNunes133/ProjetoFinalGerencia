@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    width: 100%;
+}
+body{
+background:url("../Imagens/Fundo.jpg") no-repeat center center fixed;
+background-size: cover;
+}
+ body,ul,li{
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 16pt;
+ }
+ a{
+     text-decoration: none;
+     color: white;
+ }
+ .header{
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     padding: 20px;
+     color:white;
+     background-color: black;
+     align-items: center;
+     height: auto;
+ }
+
+ .menu{
+    display: flex;
+ }
+ .menu li{
+     margin-left: 10px;
+ }
+ .menu li a{
+     display: block;
+     padding: 10px;
+     transition: 0.3s;
+ }
+
+ .menu li a:hover{
+     border-bottom: 2px solid red;
+     color:red;
+     height: auto;
+ }
+ .menu li a.span{
+     border-bottom: 2px solid white;
+ }
+ .menu li a.span:hover{
+    border-bottom: 2px solid red;
+}
+.tela{
+    padding-top: 30px;
+}
+
+.descricao{
+    background-color:black;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    padding-bottom: 2vh;
+    opacity: 90%;
+ }
+.descricao h1{
+    color: white;
+    text-align: center;
+    font: 20pt times;
+    border-bottom: 2px solid white;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    padding-top: 10px;
+}
+
+.descricao h3{
+    color: white;
+    font: 16pt times;
+    text-align: left;
+    text-decoration: underline;
+    margin-left: 3vw;
+    padding-top: 20px;
+    margin-top: 5vh;
+}
+
+.descricao p{
+    font-size: 14pt;
+    text-align: justify;
+    text-indent: 10px;
+    color: white;
+    margin: 3vh 3vw 0.2vh 3vw;
+}
+
+section footer.rodape{
+    background-color: black;
+    color: white;
+    margin-top: 20vh;
+    padding: 30px;
+}
+
+section footer.rodape a.logoRodape{
+    text-align: center;
+    display: block;
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-bottom: 5vh;
+    padding: 10px;
+}
+section footer.rodape div p.textExplica{
+    text-indent: 3vw;
+    text-align: justify;
+    margin-bottom: 4vh;
+}
+
+section footer.rodape div h3{
+    text-align: center;
+    font-size: 16pt;
+    margin-bottom: 4vh;
+    margin-top: 4vh;
+}
+
+section footer.rodape div p.nomeDev{
+    font-size: 14pt;
+    margin-bottom: 2vh;
+    text-indent: 3vw;
+}
