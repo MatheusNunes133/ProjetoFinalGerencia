@@ -31,9 +31,15 @@ background-size: cover;
      align-items: center;
      height: auto;
  }
-
+ .header img{
+     width: 100px;
+     border-radius: 50%;
+ }
  .menu{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
  }
  .menu li{
      margin-left: 10px;
@@ -125,4 +131,27 @@ section footer.rodape div p.nomeDev{
     font-size: 14pt;
     margin-bottom: 2vh;
     text-indent: 3vw;
+}
+
+@media screen and (max-width:425px) {
+    .header{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .menu{
+        flex-direction: column;
+    }
+    .header img{
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width:860px) {
+    .header{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .header img{
+        margin-bottom: 30px;
+    }
 }
