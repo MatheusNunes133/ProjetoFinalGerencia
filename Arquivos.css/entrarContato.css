@@ -114,9 +114,19 @@ section.formulario form input[name = "nome"]{
     border: 1px solid #c9c0c0;
 }
 
-section.formulario form input[name = "Email"]{
+section.formulario form input[type = "email"]{
     display: block;
     width: 70%;
+    border: 1px solid #c9c0c0;
+    padding: 8px 16px;
+    font-size: 12pt;
+    border-radius: 4px;
+}
+
+section.formulario form .error{
+    padding:4px;
+    border-radius: 4px;
+    color:#e74c3c;
 }
 section.formulario form select{
     display: block;

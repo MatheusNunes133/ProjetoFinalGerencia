@@ -41,7 +41,7 @@
                         </div>
                         <div class="item">
                             <label for="">Email:</label>
-                            <input name="Email" placeholder=" Digite seu Email..." type="text" required="required">
+                            <input id="Email" placeholder=" Digite seu Email..." type="email" required="required" onblur="Validate.email(this)">
                         </div>
                         <div class="item">
                             <label for="">Selecione sua Cidade:</label>
@@ -82,5 +82,6 @@
 
         </footer>
     </section>
+    <script src="./Arquivos.js/script.js"></script>
 </body>
 </html>
