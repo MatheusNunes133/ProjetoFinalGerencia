@@ -77,15 +77,6 @@ background-size: cover;
     opacity: 90%;
     padding-top: 5vh;
 }
-.descricao h1{
-    color: white;
-    text-align: center;
-    font: 20pt times;
-    border-bottom: 2px solid white;
-    margin-left: 3vw;
-    margin-right: 3vw;
-    padding-top: 10px;
-}
 
 .descDesenvolv{
     display: flex;
@@ -95,6 +86,7 @@ background-size: cover;
     margin-left: 3vw;
     margin-right: 3vw;
 }
+
 .descDesenvolv p{
     font-size: 30pt;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -133,7 +125,6 @@ background-size: cover;
     background-color: white;
     cursor: pointer;
 }
-
 
 section footer.rodape{
     background-color: black;
