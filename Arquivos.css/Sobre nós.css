@@ -109,13 +109,15 @@ section footer.rodape{
     padding: 30px;
 }
 
-section footer.rodape a.logoRodape{
-    text-align: center;
-    display: block;
-    margin-left: 45%;
-    margin-right: 45%;
-    margin-bottom: 5vh;
-    padding: 10px;
+section footer.rodape div.imgRodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10vh;
+}
+section footer.rodape div.imgRodape img{
+    width: 100px;
+    border-radius: 50%;
 }
 section footer.rodape div p.textExplica{
     text-indent: 3vw;
