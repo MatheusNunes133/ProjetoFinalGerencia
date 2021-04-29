@@ -99,6 +99,25 @@ background-size: cover;
     margin: 3vh 3vw 0.2vh 3vw;
 }
 
+section.tela div.descricao div#utilizaServicos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 8vh;
+}
+
+section.tela div.descricao div#utilizaServicos img{
+    margin-top: 8vh;
+    margin-left: 5vw;
+    width: 170px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: white;
+}
+section.tela div.descricao div#utilizaServicos p{
+    color: white;
+}
+
 section.tela div.imgGenuíno{
     display: flex;
     justify-content: center;
