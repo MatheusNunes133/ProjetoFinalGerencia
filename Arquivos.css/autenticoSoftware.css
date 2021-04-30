@@ -99,12 +99,28 @@ background-size: cover;
     margin: 3vh 3vw 0.2vh 3vw;
 }
 
-section.tela div.imgGenuíno{
+section.tela div.descricao div#utilizaServicos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 8vh;
+}
+
+section.tela div.descricao div#utilizaServicos a img{
+    margin-top: 8vh;
+    margin-left: 5vw;
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.tela div.imgAutentico{
     display: flex;
     justify-content: center;
     margin-top: 7vh;
 }
-section.tela div.imgGenuíno img{
+.tela div.imgAutentico img{
     border-radius: 20%;
     box-shadow: 0px 0px 20px orange;
     border: 2px solid orange;

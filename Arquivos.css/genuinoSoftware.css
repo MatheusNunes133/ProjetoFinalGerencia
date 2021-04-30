@@ -114,9 +114,6 @@ section.tela div.descricao div#utilizaServicos img{
     border-radius: 10px;
     background-color: white;
 }
-section.tela div.descricao div#utilizaServicos p{
-    color: white;
-}
 
 section.tela div.imgGenuíno{
     display: flex;
